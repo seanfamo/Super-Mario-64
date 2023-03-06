@@ -35,7 +35,7 @@
 					if (!EJS_pathtodata.endsWith('/')) EJS_pathtodata += '/';
 					return EJS_pathtodata + file + '?v=' + VERSION;
 				} else {
-					return '/game/emulatorJS/' + file + '?v=' + VERSION;
+					return '/Super-Mario-64/EmulatorJS/' + file + '?v=' + VERSION;
 				}
 			})();
 			css.onload = resolve;
