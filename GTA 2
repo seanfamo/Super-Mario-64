@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <!--HTML file auto generated using EmulatorJS codehelper-->
+    </head>
+    <body>
+        <div id="game" class="powerline"></div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "n64";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "/EmulatorJS/data/";
+            EJS_gameUrl = "Grand Theft Auto 2.7z";
+            EJS_biosUrl = 'SCPH-5501.BIN';
+        </script>
+        <script src="/EmulatorJS/data/loader.js"></script>
+    </body>
+    <style>
+    html,
+    body {
+        margin: 0px;
+    }
+    
+    .powerline {
+        height: 100vh;
+        width: 100%;
+    }
+    </style>
+</html>
